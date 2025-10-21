@@ -1,10 +1,11 @@
-
-
+import Navbar from './components/Navbar'
+import ItemListContainer from './components/ItemListContainer'
 function App() {
-
+  
   return (
     <div>
-      <h1>Test</h1>
+      <Navbar />
+      <ItemListContainer itemList="Biembenidos al Ecommerce" />
     </div>
   )
 }
