@@ -3,9 +3,9 @@ import ItemListContainer from './components/ItemListContainer'
 function App() {
   
   return (
-    <div>
+    <div className='principal'>
       <Navbar />
-      <ItemListContainer itemList="Biembenidos al Ecommerce" />
+      <ItemListContainer itemList="Bienvenido al Ecommerce" />
     </div>
   )
 }
